@@ -1,0 +1,22 @@
+
+*{
+    color: rgb(106, 239, 34);
+}
+
+body{
+    background-color: rgb(45, 63, 63);
+}
+h1{
+    color: rgb(106, 239, 34);
+    text-align: center;
+}
+p{
+    color: rgb(97, 243, 199);
+    font-size: 50px;
+    text-align: center;
+}
+
+p::after {
+    content: "🔥";
+    background-color: #FF00FF;
+  }
